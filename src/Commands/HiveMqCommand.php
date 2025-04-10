@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class HiveMqCommand extends Command
 {
-    public $signature = 'hivemq-sdk';
+    public $signature = 'hivemq:info';
 
     public $description = 'My command';
 
