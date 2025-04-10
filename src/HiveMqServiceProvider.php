@@ -2,9 +2,9 @@
 
 namespace SmartDato\HiveMq;
 
+use SmartDato\HiveMq\Commands\HiveMqCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SmartDato\HiveMq\Commands\HiveMqCommand;
 
 class HiveMqServiceProvider extends PackageServiceProvider
 {
